@@ -613,11 +613,25 @@ section {
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: 44px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #010483;
+  display: flex;
+  justify-content: center;
+}
+
+.section-title h3 {
+  margin: 0;
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #010483;
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -680,6 +694,30 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  padding: 0 0 60px 0;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+.clients .content h3 {
+  font-weight: 600;
+  font-size: 99px;
+  color: #010483;
 }
 
 /*--------------------------------------------------------------
@@ -1169,6 +1207,8 @@ section {
   border-radius: 5px;
   position: relative;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .pricing h3 {
@@ -1267,6 +1307,8 @@ section {
   background: #1acc8d;
   color: #fff;
 }
+
+
 
 /*--------------------------------------------------------------
 # F.A.Q
